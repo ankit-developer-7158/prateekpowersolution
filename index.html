@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>PPS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700"rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/jcarousel.css" rel="stylesheet" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <!-- Theme skin -->
+  <link href="skins/default.css" rel="stylesheet" />
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="ico/favicon.png" />
+
+  <style type="text/css">
+    .socl_bx {
+      padding: 10px 0px 0px 6px;
+      width: 32px;
+      background: #3e3d3d;
+      position: fixed;
+      left: 0;
+      z-index: 9999;
+      border-radius: 0px 7px 7px 0px;
+      top: 50%;
+    }
+
+    .socl_bx a {
+      float: left;
+      margin-bottom: 13px;
+    }
+
+    .socl_bx a img {
+      float: left;
+      max-width: none;
+    }
+
+    .enquiry {
+      position: fixed;
+      right: 0;
+      z-index: 9999;
+      border-radius: 0px 7px 7px 0px;
+      top: 30%;
+    }
+
+    .enquiry a {
+      float: right;
+      margin-bottom: 13px;
+    }
+
+    .enquiry a img {
+      float: right;
+      max-width: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div class="socl_bx">
+      <a href="" target="_blank"><img src="images/icons/fb_icn.jpg" title=""></a>
+      <a href="" target="_blank"><img src="images/icons/Instagram_icon.png" title=""></a>
+      <a href="" target="_blank"><img src="images/icons/in_icn.jpg" title=""></a>
+      <a href="" target="_blank"><img src="images/icons/tweet_icn.jpg" title=""></a>
+      <a href="" target="_blank"><img src="images/icons/utub_icn.jpg" title=""></a>
+    </div>
+
+    <div class="enquiry">
+      <a href="contact.html" target="_blank"><img src="images/icons/enquiry.png" title=""></a>
+    </div>
+    <!-- toggle top area -->
+    <div class="hidden-top " class="">
+      <div class="hidden-top-inner container">
+        <div class="row">
+          <div class="span12">
+            <marquee scrolldelay="100" behavior="scroll" direction="left" onmouseover="this.stop();"
+              onmouseout="this.start();">
+              <ul>
+                <li><strong>We are available for any custom works this month ||</strong></li>
+                <li><strong>Main office: <i class="icon-home"></i> C-12, First Floor, Sector-10, Noida Uttar Pradesh,
+                    Pin 201301 ||</strong></li>
+                <li><strong>Email :<i class="icon-envelope"></i> Prateekpowersolution@gmail.com</strong></li>
+                <li><strong>Call us :<i class="icon-phone"></i> +91-9971835406, +91-9999484674</strong></li>
+              </ul>
+            </marquee>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end toggle top area -->
+    <!-- start header -->
+    <header>
+      <div class="container ">
+        <!-- hidden top area -->
+        <div id="header-hidden-link">
+          <a href="#" class="toggle-link" title="Click me you'll get a surprise"
+            data-target=".hidden-top"><i></i>Open</a>
+        </div>
+        <!-- end toggle link -->
+        <div class="row nomargin">
+          <div class="span12">
+            <div class="headnav">
+              <!-- <ul>
+                    <li><a href="#mySignup" data-toggle="modal"><i class="icon-user"></i> Sign up</a></li>
+                    <li><a href="#mySignin" data-toggle="modal">Sign in</a></li>
+                  </ul> -->
+            </div>
+            <!-- Signup Modal -->
+            <!--  <div id="mySignup" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySignupModalLabel" aria-hidden="true">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                   <h4 id="mySignupModalLabel">Create an <strong>account</strong></h4>
+                 </div>
+                 <div class="modal-body">
+                   <form class="form-horizontal">
+                     <div class="control-group">
+                       <label class="control-label" for="inputEmail">Email</label>
+                       <div class="controls">
+                         <input type="text" id="inputEmail" placeholder="Email">
+                       </div>
+                     </div>
+                     <div class="control-group">
+                       <label class="control-label" for="inputSignupPassword">Password</label>
+                       <div class="controls">
+                         <input type="password" id="inputSignupPassword" placeholder="Password">
+                       </div>
+                     </div>
+                     <div class="control-group">
+                       <label class="control-label" for="inputSignupPassword2">Confirm Password</label>
+                       <div class="controls">
+                         <input type="password" id="inputSignupPassword2" placeholder="Password">
+                       </div>
+                     </div>
+                     <div class="control-group">
+                       <div class="controls">
+                         <button type="submit" class="btn">Sign up</button>
+                       </div>
+                       <p class="aligncenter margintop20">
+                         Already have an account? <a href="#mySignin" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Sign in</a>
+                       </p>
+                     </div>
+                   </form>
+                 </div>
+               </div> -->
+            <!-- end signup modal -->
+            <!-- Sign in Modal -->
+            <!--  <div id="mySignin" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySigninModalLabel" aria-hidden="true">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                   <h4 id="mySigninModalLabel">Login to your <strong>account</strong></h4>
+                 </div>
+                 <div class="modal-body">
+                   <form class="form-horizontal">
+                     <div class="control-group">
+                       <label class="control-label" for="inputText">Username</label>
+                       <div class="controls">
+                         <input type="text" id="inputText" placeholder="Username">
+                       </div>
+                     </div>
+                     <div class="control-group">
+                       <label class="control-label" for="inputSigninPassword">Password</label>
+                       <div class="controls">
+                         <input type="password" id="inputSigninPassword" placeholder="Password">
+                       </div>
+                     </div>
+                     <div class="control-group">
+                       <div class="controls">
+                         <button type="submit" class="btn">Sign in</button>
+                       </div>
+                       <p class="aligncenter margintop20">
+                         Forgot password? <a href="#myReset" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Reset</a>
+                       </p>
+                     </div>
+                   </form>
+                 </div>
+               </div> -->
+            <!-- end signin modal -->
+            <!-- Reset Modal -->
+            <!-- <div id="myReset" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="myResetModalLabel" aria-hidden="true">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 id="myResetModalLabel">Reset your <strong>password</strong></h4>
+                  </div>
+                  <div class="modal-body">
+                    <form class="form-horizontal">
+                      <div class="control-group">
+                        <label class="control-label" for="inputResetEmail">Email</label>
+                        <div class="controls">
+                          <input type="text" id="inputResetEmail" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <div class="controls">
+                          <button type="submit" class="btn">Reset password</button>
+                        </div>
+                        <p class="aligncenter margintop20">
+                          We will send instructions on how to reset your password to your inbox
+                        </p>
+                      </div>
+                    </form>
+                  </div>
+                </div> -->
+            <!-- end reset modal -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="span3">
+            <div class="logo">
+              <a href="index.html"><img class="icon-articl" src="images/pps-logo.png" alt="" class="logo" /></a>
+              <!-- <h1>Flat and trendy bootstrap template</h1> -->
+            </div>
+          </div>
+          <div class="span9">
+            <div class="navbar navbar-static-top">
+              <div class="navigation">
+                <nav>
+                  <ul class="nav topnav">
+                    <li class="active"><a href="index.html"> Home </a></li>
+                    <li><a href="about.html"> About us </a></li>
+                    <!-- <li class="dropdown">
+                          <a href="#">Features <i class="icon-angle-down"></i></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="typography.html">Typography</a></li>
+                            <li><a href="table.html">Table</a></li>
+                            <li><a href="components.html">Components</a></li>
+                            <li><a href="animations.html">56 Animations</a></li>
+                            <li><a href="icons.html">Icons</a></li>
+                            <li><a href="icon-variations.html">Icon variations</a></li>
+                            <li class="dropdown"><a href="#">3 Sliders <i class="icon-angle-right"></i></a>
+                              <ul class="dropdown-menu sub-menu-level1">
+                                <li><a href="index.html">Nivo slider</a></li>
+                                <li><a href="index-alt2.html">Slit slider</a></li>
+                                <li><a href="index-alt3.html">Parallax slider</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#">Pages <i class="icon-angle-down"></i></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="pricingbox.html">Pricing boxes</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="404.html">404</a></li>
+                          </ul>
+                        </li> -->
+                    <li class="dropdown">
+                      <a href="#">Our Products <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li style="border-bottom: 1px solid #636161;"><a href="New-UPS.html">New / Online UPS</a></li>
+                        <!-- <li style="border-bottom: 1px solid #636161;"><a href="Recondition-UPS.php">Recondition UPS</a></li> -->
+                        <li style="border-bottom: 1px solid #636161;"><a href="Batteries.html">Batteries</a></li>
+                        <!-- <li style="border-bottom: 1px solid #636161;"><a href="Energy-Saving-Solutions.php">Energy Saving Solutions</a></li>-->
+                        <li style="border-bottom: 1px solid #636161;"><a href="PAQ.html">Other Services (PAQ)</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">Services <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li style="border-bottom: 1px solid #636161;"><a href="UPS-AMC-Services.html">UPS AMC
+                            Services</a></li>
+                        <li style="border-bottom: 1px solid #636161;"><a href="UPS-Renting-Services.html">UPS Renting
+                            Services</a></li>
+                        <li style="border-bottom: 1px solid #636161;"><a href="UPS-Repairing-Services.html">UPS
+                            Repairing Services</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="our-client.html"> Our Client </a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- end navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <section id="featured">
+      <!-- start slider -->
+      <!-- Slider -->
+      <div id="nivo-slider">
+        <div class="nivo-slider">
+          <!-- Slide #1 image -->
+          <img src="img/slides/nivo/site_survey3.png" alt="" title="#caption-1" />
+          <!-- Slide #2 image -->
+          <img src="img/slides/nivo/bg-2.jpg" alt="" title="#caption-2" />
+          <!-- Slide #3 image -->
+          <img src="img/slides/nivo/bg-3.jpg" alt="" title="#caption-3" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+              <!-- Slide #1 caption -->
+              <div class="nivo-caption" id="caption-1">
+                <div>
+                  <h2>Prateek Power <strong>Solution</strong></h2>
+                  <p>
+                    Prateek Power Solution Services Offers UPS AMC, Reapir & UPS On Rent In Delhi NCR for Emerson & Other
+                    Branded UPS.
+                  </p>
+                  <!--  <a href="#" class="btn btn-theme">Read More</a> -->
+                </div>
+              </div>
+              <!-- Slide #2 caption -->
+              <div class="nivo-caption" id="caption-2">
+                <div>
+                  <h2>Prateek Power <strong>Solution</strong></h2>
+                  <p>
+                    We have highly qualified team of engineers having specialization in UPS field making our clients
+                    extremely pleased with our services.
+                  </p>
+                  <!--  <a href="#" class="btn btn-theme">Read More</a> -->
+                </div>
+              </div>
+              <!-- Slide #3 caption -->
+              <div class="nivo-caption" id="caption-3">
+                <div>
+                  <h2>Prateek Power <strong>Solution</strong></h2>
+                  <p>
+                    We are offering UPS on lease to all major IT organizations & process industries. The clientele list
+                    of Power Solution Services constitutes of a widespread number of prominent clients.
+                  </p>
+                  <!--  <a href="#" class="btn btn-theme">Read More</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end slider -->
+    </section>
+    <section class="callaction">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="big-cta">
+              <div class="cta-text">
+                <h3>Welcome to <span class="highlight"><strong>Prateek Power Solution</strong></span></h3>
+              </div>
+              <div class="cta floatright">
+                <a class="btn btn-large btn-theme btn-rounded" href="contact.html">Request a quote</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <p>Prateek Power Solution is one of the leading Ups Dealer and Service Provider  company in Noida, Delhi & NCR region. It's started with the aim of providing best and quick  services in UPS industry at an affordable price without compromising quality and quantity.We have different product and service to meet your requirements we provide the optimum and customised service for your organization. </p>
+            <div class="row">
+              <div class="span6">
+                <div class="vision">
+                  <h1>OUR <span class="highlight"><strong>VISION</strong></span></h1>
+                  <p><span>OUR VISION</span> is to achieve the standerd by providing quality reliable service and solution with the necessary skill and drive to provide our clients with a superior services.</p>
+                </div>
+              </div>
+              <div class="span6">
+                <div class="mission">
+                  <h1>OUR <span class="highlight"><strong>MISSION</strong></span></h1>
+                  <p><span>OUR MISSION</span> is the 100% customer setisfaction and improving service of our clients through quality product and valuable service with the affordable cost.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- divider -->
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+        <!-- end divider -->
+      </div>
+    </section>
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h4 class="heading">Some <strong>Features: </strong></h4>
+            <div class="row">
+              <div class="span4">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                   <div class="imag animate__animated animate__bounce animate__infinite	infinite">
+                    <img class="icon-circled icon-64 active" src="img/feature/1.png" alt="" style="width: 100%;">
+                   </div>
+                  </div>
+                  <div class="text">
+                    <h6 id="h6">LCD for metering & monitoring</h6>
+                    <!-- <p>
+                      Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
+                    </p>
+                    <a href="#">Learn more</a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <div class="imag animate__animated animate__bounce animate__infinite	infinite">
+                      <img class="icon-circled icon-64 active" src="img/feature/2.png" alt="" style="width: 100%;">
+                     </div>
+                  </div>
+                  <div class="text">
+                    <h6 id="h6">Computer Interface</h6>
+                    <!-- <p>
+                      Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
+                    </p>
+                    <a href="#">Learn more</a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <div class="imag animate__animated animate__bounce animate__infinite	infinite">
+                      <img class="icon-circled icon-64 active" src="img/feature/3.png" alt="" style="width: 100%;">
+                     </div>
+                  </div>
+                  <div class="text">
+                    <h6 id="h6">Auto Re-transfer Static Switch</h6>
+                    <!-- <p>
+                      Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
+                    </p>
+                    <a href="#">Learn more</a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <div class="imag animate__animated animate__bounce animate__infinite	infinite">
+                      <img class="icon-circled icon-64 active" src="img/feature/4.png" alt="" style="width: 100%;">
+                     </div>
+                  </div>
+                  <div class="text">
+                    <h6 id="h6">Double Conversion Topology</h6>
+                    <!-- <p>
+                      Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
+                    </p>
+                    <a href="#">Learn more</a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <div class="imag animate__animated animate__bounce animate__infinite	infinite">
+                      <img class="icon-circled icon-64 active" src="img/feature/5.png" alt="" style="width: 100%;">
+                     </div>
+                  </div>
+                  <div class="text">
+                    <h6 id="h6">UPS Repairing</h6>
+                    <!-- <p>
+                      Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
+                    </p>
+                    <a href="#">Learn more</a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <div class="imag animate__animated animate__bounce animate__infinite	infinite">
+                      <img class="icon-circled icon-64 active" src="img/feature/6.png" alt="" style="width: 100%;">
+                     </div>
+                  </div>
+                  <div class="text">
+                    <h6 id="h6">High Frequency PWM Based Inverter Using IGBTs</h6>
+                    <!-- <p>
+                      Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.
+                    </p>
+                    <a href="#">Learn more</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio Projects -->
+
+        <!-- End Portfolio Projects -->
+        <!-- divider -->
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h4>OUR <strong>clients</strong></h4>
+          <div class="owl-carousel owl-theme">
+            <div class="item"><a href="our-client.html"><img src="images/clients/client1.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client2.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client3.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client4.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client5.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client6.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client7.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client8.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client9.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client10.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client11.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client12.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client13.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client14.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client15.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client16.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client17.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client18.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client19.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client20.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client21.png" class="client-logo" alt="" /></a></div>
+            <div class="item"><a href="our-client.html"><img src="images/clients/client22.png" class="client-logo" alt="" /></a></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="bottom">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="aligncenter">
+              <div id="twitter-wrapper">
+                <div id="twitter">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="span5">
+            <div class="widget">
+              <h5 class="widgetheading ">About Prateek Power Solution</h5>
+              <p>PRATEEK POWER SOLUTION was founded in 2016 by a group of professionals having experience and wide exposure in technical field. We are advancing our services with involvements of young skilled qualified, experienced engineers from the different field to full fill the requirements of Clients. The key to the company’s success is the maintenance of a close working relationship With the clients through ensuring the best possible services to their needs and help them maximize the benefits. We want to establish ourselves as the best choice in services by offering the full spectrum of services. We are ready to serve our services and want to do long –term business with clients, where services, reliability quality and punctuality are the major building blocks.</p>
+              <!-- <ul class="link-list">
+                <li><a href="#">Press release</a></li>
+                <li><a href="#">Terms and conditions</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Career center</a></li>
+                <li><a href="#">Flattern forum</a></li>
+              </ul> -->
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Browse pages</h5>
+              <ul class="link-list" style="padding: 5px 0px;">
+                <li><i class="icon-angle-right"></i><a class="icon-arti" href="about.html">About our company</a></li>
+                <li><i class="icon-angle-right"></i><a class="icon-arti" href="UPS-Repairing-Services.html">Our services</a></li>
+                <li><i class="icon-angle-right"></i><a class="icon-arti" href="Products.html">Our Products</a></li>
+                <li><i class="icon-angle-right"></i><a class="icon-arti" href="our-client.html">Our Clients</a></li>
+                <li><i class="icon-angle-right"></i><a class="icon-arti" href="contact.html">Get in touch with us</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Flickr photostream</h5>
+              <div class="flickr_badge">
+                <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
+              </div>
+              <div class="clear">
+              </div>
+            </div>
+          </div> -->
+          <div class="span4">
+            <div class="widget">
+              <h5 class="widgetheading">Get in touch with us</h5>
+              <address style="padding: 5px 0px;">
+                <strong style="font-weight: 600; font-size: 14px;">PRATEEK POWER SOLUTION</strong><br >
+                C-12, First Floor, Sector-10, Noida Uttar Pradesh, Pin 201301
+              </address>
+              <p>
+                <i class="icon-phone"></i> +91-9971835406, +91-9999484674 <br>
+                <i class="icon-envelope-alt"></i> <a class="mail" href="contact.html">Prateekpowersolution@gmail.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <div class="copyright">
+                <p>
+                  <span>&copy; PPS - All right reserved.</span>
+                </p>
+                <div class="credits">
+                  Designed by <a href="https://deetyasoft.com/">Deetyasoft Pvt. Ltd.</a>
+                </div>
+              </div>
+            </div>
+            <div class="span6">
+              <ul class="social-network">
+                <li><a href="#" data-placement="top" title="Facebook"><i class="icon-facebook icon-square"></i></a></li>
+                <li><a href="#" data-placement="top" title="Twitter"><i class="icon-twitter icon-square"></i></a></li>
+                <li><a href="#" data-placement="top" title="Linkedin"><i class="icon-linkedin icon-square"></i></a></li>
+                <li><a href="#" data-placement="top" title="Pinterest"><i class="icon-pinterest icon-square"></i></a>
+                </li>
+                <li><a href="#" data-placement="top" title="Google plus"><i
+                      class="icon-google-plus icon-square"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+   
+
+
+    <!-- javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jcarousel/jquery.jcarousel.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.fancybox-media.js"></script>
+    <script src="js/google-code-prettify/prettify.js"></script>
+    <script src="js/portfolio/jquery.quicksand.js"></script>
+    <script src="js/portfolio/setting.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/jquery.nivo.slider.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery.ba-cond.min.js"></script>
+    <script src="js/jquery.slitslider.js"></script>
+    <script src="js/animate.js"></script>
+  <script src="js/jquwhatery.min.js"></script>
+  <script src="js/owl.carousel.js">
+  </script>
+
+    <!-- Template Custom JavaScript File -->
+    <script src="js/custom.js"></script>
+
+  </div>
+  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+
+  <script src="jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+
+  <script>
+   $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:1500,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            nav:true
+        },
+        600:{
+            items:4,
+            nav:false
+        },
+        1200:{
+            items:5,
+            nav:true,
+            loop:true
+        }
+    }
+});
+});
+  </script>
+
+</body>
+
+</html>
